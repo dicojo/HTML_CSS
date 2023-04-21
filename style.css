@@ -1,0 +1,46 @@
+/*
+h1{
+    color: mediumvioletred;
+}
+h4{
+    background-color: darkgoldenrod;
+}
+section{
+   background-color: cadetblue;
+}
+section div{
+    width: 500px;
+    height: 200px;
+    border: solid 2px black;
+   overflow: hidden;
+   margin: 0 auto;
+   margin-top: 20px;
+   margin-left: 200;
+   margin-bottom: 200;
+   margin-right: 300; 
+   padding: 30px;
+}
+.uno{
+    background-color: burlywood;
+}
+.dos{
+    background-color: rgb(95, 196, 49);
+}
+*/
+.contenedor{
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.contenedor img{
+    width: 100%;
+}
+
+.contenedor img:hover{
+   /* transform: scale(2); */
+  /* transform: rotate(360deg); */
+  transform: translate(50px,30px);
+    transition: 2s;
+   
+}
